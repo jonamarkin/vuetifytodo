@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="subheading grey--text">Projects</h1>
+        <h1 class="subheading grey--text">{{name}}</h1>
 
         <v-container fluid class="my-5">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, ab quibusdam aut sit praesentium esse accusantium totam voluptate ipsa. Consequuntur laboriosam dolore aliquid voluptatum veritatis pariatur vel a debitis non.</p>
@@ -12,6 +12,10 @@
 
 <script>
 export default {
-    
+    data (){
+      return{
+        name: 'Cobby'
+      }
+    }
 }
 </script>
